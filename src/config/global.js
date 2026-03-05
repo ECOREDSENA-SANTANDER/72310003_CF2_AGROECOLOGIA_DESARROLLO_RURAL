@@ -122,11 +122,11 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
+      /*{
         nombreRuta: 'complementario',
         icono: 'far fa-folder-open',
         titulo: 'Material complementario',
-      },
+      },*/
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -149,24 +149,132 @@ export default {
       },
     ],
   },
-  complementario: [
+  /* complementario: [
     {
       tema: '',
       referencia: '',
       tipo: 'Sitio web',
       link: '',
     },
-  ],
+  ],*/
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Agroecología',
+      significado:
+        'Enfoque que integra principios ecológicos en la producción agrícola para lograr sistemas sostenibles.',
+    },
+    {
+      termino: 'Biodiversidad',
+      significado:
+        'Variedad de especies, genes y ecosistemas presentes en un territorio.',
+    },
+    {
+      termino: 'Buenas Prácticas Agrícolas (BPA)',
+      significado:
+        'Conjunto de técnicas que garantizan producción segura, sostenible y de calidad.',
+    },
+    {
+      termino: 'Calidad ambiental',
+      significado:
+        'Condición del entorno determinada por el equilibrio entre actividades humanas y recursos naturales.',
+    },
+    {
+      termino: 'Desarrollo sostenible',
+      significado:
+        'Modelo de desarrollo que satisface necesidades actuales sin comprometer las futuras generaciones.',
+    },
+    {
+      termino: 'Eficiencia productiva',
+      significado:
+        'Capacidad de obtener mayores resultados con menor uso de recursos.',
+    },
+    {
+      termino: 'Gestión ambiental',
+      significado:
+        'Conjunto de acciones para prevenir, mitigar y controlar impactos ambientales.',
+    },
+    {
+      termino: 'Impacto ambiental',
+      significado:
+        'Alteración positiva o negativa que una actividad genera en el medio ambiente.',
+    },
+    {
+      termino: 'Producción limpia',
+      significado:
+        'Estrategia preventiva que reduce residuos, emisiones y consumo de recursos en los procesos productivos.',
+    },
+    {
+      termino: 'Reconversión productiva',
+      significado:
+        'Proceso de transformación de sistemas tradicionales hacia modelos sostenibles y competitivos.',
+    },
+    {
+      termino: 'Recursos naturales',
+      significado:
+        'Bienes proporcionados por la naturaleza utilizados en la producción.',
+    },
+    {
+      termino: 'Resiliencia',
+      significado:
+        'Capacidad de un sistema productivo para adaptarse y recuperarse ante cambios o crisis.',
+    },
+    {
+      termino: 'Sostenibilidad',
+      significado:
+        'Equilibrio entre dimensiones económica, social y ambiental en el tiempo.',
+    },
+    {
+      termino: 'Sustentabilidad económica',
+      significado:
+        'Viabilidad financiera de un sistema productivo a largo plazo.',
+    },
+    {
+      termino: 'Tecnologías limpias',
+      significado:
+        'Innovaciones que reducen la contaminación y optimizan el uso de recursos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Cabrera, E. (2024, 15 de octubre). Conozca la milenaria técnica de cultivo de maíz. Blog Cambiagro.',
+      link:
+        'https://blog.cambiagro.com/actualidad/milenaria-tecnica-de-cultivo-de-maiz/',
+    },
+    {
+      referencia:
+        'Conciencia.eco. (s. f.). La importancia de la responsabilidad social en la ecología.',
+      link:
+        'https://conciencia.eco/la-importancia-de-la-responsabilidad-social-en-la-ecologia/',
+    },
+    {
+      referencia:
+        'Comisión Mundial sobre el Medio Ambiente y el Desarrollo. (1987). Nuestro futuro común (Informe Brundtland). Oxford University Press.',
       link: '',
+    },
+    {
+      referencia:
+        'Demanet Filippi, R. (2021). La producción agropecuaria y su impacto en el medio ambiente [PDF]. Praderas y Pasturas.',
+      link:
+        'https://praderasypasturas.com/documentos/103.-Catedras_Post_Grado/03.-Magister_en_Innovacion_y_Gestion_Agroalimentaria/2021/01.-Impacto_en_el_medio_ambiente_de_la_produccion_agropecuaria.pdf',
+    },
+    {
+      referencia:
+        'Desarrollo Sustentable. (s. f.). Diferencias entre sostenibilidad y desarrollo sostenible.',
+      link:
+        'https://desarrollo-sustentable.org/diferencias-entre-sostenibilidad-y-desarrollo-sostenible/',
+    },
+    {
+      referencia:
+        'Eurofins Environment Testing Spain. (2023, 17 de septiembre). ¿Qué es la sostenibilidad y el desarrollo sostenible?',
+      link:
+        'https://www.eurofins-environment.es/es/sostenibilidad-desarrollo-sostenible/',
+    },
+    {
+      referencia:
+        'Pacheco Saldarriaga J. A, & Castellar Fuentes L. C. (2019). Estrategias de producción más limpia y criterios ambientales en la planta de beneficio de ganado de COOLESAR en el municipio de Valledupar- Cesar. Universidad Popular Del Cesar.',
+      link:
+        'http://repositorio.unicesar.edu.co/server/api/core/bitstreams/f4d006f8-7b4f-4acf-9688-8653b6c40b67/content',
     },
   ],
   creditos: [
@@ -174,14 +282,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -189,9 +297,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrés Javier Pacheco Wandurraga',
+          cargo: 'Experto temático',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -199,19 +312,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de contenidos',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: ' ',
           cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -219,14 +332,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: ' ',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: ' ',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

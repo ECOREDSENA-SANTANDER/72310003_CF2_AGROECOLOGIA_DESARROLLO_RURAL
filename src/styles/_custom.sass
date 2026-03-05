@@ -109,10 +109,10 @@ figcaption
   background-color: #D7E5B9
 .bg6
   background-color:  #B7A79D
-/*.bgc-1
-  background-image: url('../assets/curso/temas/t1/bg.png')
+.bgc-1
+  background-image: url('../assets/curso/temas/t4/bg.png')
   background-position: center
-  background-size: contain
+  background-size: cover
   background-repeat: no-repeat
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
@@ -186,6 +186,8 @@ figcaption
     bottom: 0px
 .w-45x
   width: 45px
+.w-55x
+  width: 55px
 .w-95x
   width: 95px
 .br-top-r
@@ -275,6 +277,15 @@ figcaption
       background-color: #EDE8E6
   &__item__content, &__item__number
     background-color: #FFEBCE
+.pasos-b__header
+  &__btn--left, &__btn--right
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+  &__item--before .pasos-b__header__item__dot
+    background-color: $color-secundario
+    border-color: $color-secundario
+  &__item--active .pasos-b__header__item__dot span
+    color: $color-sistema-texto !important
 
 
 .avatar
