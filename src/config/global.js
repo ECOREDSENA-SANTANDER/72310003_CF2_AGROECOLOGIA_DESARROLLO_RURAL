@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Producción limpia y reconversión sostenible en el sector rural',
+    Description:
+      'El componente formativo orienta al aprendiz en la comprensión y aplicación de estrategias de producción limpia y reconversión sostenible en sistemas agrícolas y pecuarios, promoviendo prácticas responsables con el ambiente, la eficiencia en el uso de recursos y el fortalecimiento de la sostenibilidad rural.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -31,28 +36,72 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Producción agropecuaria y medio ambiente',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Impacto de la actividad agrícola y pecuaria sobre los recursos naturales',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Producción limpia y reconversión productiva',
+            hash: 't_1_2',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Sostenibilidad y desarrollo sostenible',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo:
+              'Objetivos de Desarrollo Sostenible (ODS) y sector agropecuario',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Indicadores de sostenibilidad rural',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Teoría general de sistemas',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Componentes y modelos de un sistema',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'El agroecosistema como sistema complejo',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo:
+          'Aportes de las comunidades indígenas en el manejo de la biodiversidad',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Conservación de semillas nativas',
+            hash: 't_4_1',
+          },
+        ],
       },
     ],
     subMenu: [

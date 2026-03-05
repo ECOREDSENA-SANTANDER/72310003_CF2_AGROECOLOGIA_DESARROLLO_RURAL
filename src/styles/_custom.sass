@@ -2,31 +2,332 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 47%
+    right: 81%
+    width: 95px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 67%
+    right: 16%
+    width: 92px
+  &-3
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 19%
+    right: 18%
+    width: 100px
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
-.banner-principal .tarjeta
-  background-position: left 50% !important
-
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
-
 .banner-interno__titulo__icono i
   color: $color-primario
-
 figcaption
   font-weight: normal
+
+
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.banner-interno .banner-interno__fondo
+  background-image:  url('../assets/curso/portada/mini-portada.png') !important
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2  
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
+.ct-color-primario
+  color: $color-primario
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.tc-sec 
+  color: $color-secundario !important
+.tc-ac 
+  color: $color-acento-contenido !important
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+.br-top
+  border-top-left-radius: 20px 
+  border-top-right-radius: 20px 
+.br-left
+  border-top-left-radius: 20px 
+  border-bottom-left-radius: 20px 
+.br-right
+  border-top-right-radius: 20px 
+  border-bottom-right-radius: 20px 
+.bloque-texto-g__texto * 
+  display: block
+
+.bg1
+  background-color: #F5F9ED !important
+.bg2
+  background-color: #FEE7B2 
+.bg3
+  background-color: #E5EFEC !important
+.bg4
+  background-color: #EDE8E6
+.bg5
+  background-color: #D7E5B9
+.bg6
+  background-color:  #B7A79D
+/*.bgc-1
+  background-image: url('../assets/curso/temas/t1/bg.png')
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+/*.bgc-2
+  background-image: url('../assets/curso/temas/t1/bg.png')
+  background-position: top
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+/*.bgi-1
+  background-image: url('../assets/curso/temas/t2/bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+/*.bgi-2
+  background-image: url('../assets/curso/temas/t4/bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+/*.bgi-3
+  background-image: url('../assets/curso/temas/t5/bg.png')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+.subt
+  display: flex
+  align-items: flex-end
+  position: relative
+  width: fit-content
+  img 
+    width: 50px
+    z-index: 99
+  h3
+    color: $white
+    z-index: 99  
+  &::before
+    content: ''
+    position: absolute
+    width: 100%
+    height: 82%
+    background-color: #4D240B
+    border-radius: 100px
+    border-radius: 100px
+    left: 10px
+    bottom: 4px
+.subt-cuad
+  display: flex
+  align-items: flex-end
+  position: relative
+  width: fit-content
+  h4
+    z-index: 99  
+  &::before
+    content: ''
+    position: absolute
+    width: 25px
+    height: 95%
+    background-color: #02614B
+    left: 0px
+    bottom: 0px
+.w-45x
+  width: 45px
+.w-95x
+  width: 95px
+.br-top-r
+  border-top-right-radius: 100px
+.mt-n15
+  margin-top: -15%
+.mh-350
+  min-height: 350px
+
+
+.linea-tiempo-e:before
+  background: #99C0B7
+.linea-tiempo-c__header__btn
+  &--left, &--right
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.acordion
+  &__activo
+    background-color: #EDE8E6
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.no-pointer 
+  .tarjeta--boton
+    cursor: initial !important
+.tarjeta--boton
+  background-color: $color-acento-contenido
+  h4, p 
+    color: white
+  &:hover
+    h4, p 
+      color: $color-sistema-texto !important
+.tabs-a__tab
+  background-color: #FEE7B2
+  &__selected .tabs-a__tab__text, &:hover .tabs-a__tab__text
+    color: $color-sistema-texto
+.slyder-f__btn i
+  color: $color-acento-botones
+.tabla-a.color-acento-contenido
+  table
+    thead
+      tr
+        th
+          background-color: $color-acento-contenido
+          color: white
+    tbody.t1
+      tr
+        td
+          text-align: left
+          &:first-child
+            font-weight: bold
+        &:nth-child(2n)
+          background-color: #F6F6F6
+    tbody.t2
+      tr
+        td
+          text-align: left
+          border-color: #AFAFAF
+        &:nth-child(2n)
+          background-color: #F6F6F6
+.tarjeta-audio.color-acento-botones 
+  .tarjeta-audio__texto
+    color: $color-sistema-texto
+    font-style: normal !important
+.slyder-e 
+  .slyder__btn
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.mh-350
+  .tarjeta-slide__contenedor, .tarjeta-slide__contenido
+    min-height: 350px
+    display: flex
+    flex-direction: column
+    justify-content: center
+.tabs-c__tab
+  background-color: #FFEBCE
+  &--active
+    background-color: $white
+    font-weight: bold
+.linea-tiempo-d
+  &__item__number, &__item__content__title
+    font-weight: bold
+  &__item--selected 
+    .linea-tiempo-d__item__number
+      color: $color-sistema-texto !important
+    .linea-tiempo-d__item__content
+      background-color: #EDE8E6
+  &__item__content, &__item__number
+    background-color: #FFEBCE
+
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 30px)
+    height: 100%
+    background-color: #F5F9ED
+  &:nth-child(2n)::before
+    background-color: #EDE8E6
+  @media (max-width: 1000px)
+    padding-right: 2rem
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px
+
+.cursor-pointer .crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #FEE7B2   
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
