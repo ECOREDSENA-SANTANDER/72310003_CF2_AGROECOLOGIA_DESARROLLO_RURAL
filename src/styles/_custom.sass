@@ -121,9 +121,9 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
-/*.bgc-2
+.bgc-2
   background-image: url('../assets/curso/temas/t1/bg.png')
-  background-position: top
+  background-position: center
   background-size: contain
   background-repeat: no-repeat
   margin-inline: -3.4rem
@@ -133,13 +133,25 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
-/*.bgi-1
-  background-image: url('../assets/curso/temas/t2/bg.png')
+.bgc-3
+  background-image: url('../assets/curso/temas/t1/bg2.png')
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgi-1
+  background-image: url('../assets/curso/temas/t1/bg3.png')
   background-position: center
   background-size: cover
   background-repeat: no-repeat
-/*.bgi-2
-  background-image: url('../assets/curso/temas/t4/bg.png')
+.bgi-2
+  background-image: url('../assets/curso/temas/t1/bg4.png')
   background-position: center
   background-size: cover
   background-repeat: no-repeat
@@ -214,18 +226,26 @@ figcaption
   .tarjeta--boton
     cursor: initial !important
 .tarjeta--boton
-  background-color: $color-acento-contenido
-  h4, p 
-    color: white
+  background-color: #B7A79D
   &:hover
-    h4, p 
-      color: $color-sistema-texto !important
+    background-color: #EDE8E6
 .tabs-a__tab
   background-color: #FEE7B2
   &__selected .tabs-a__tab__text, &:hover .tabs-a__tab__text
     color: $color-sistema-texto
 .slyder-f__btn i
   color: $color-acento-botones
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+  &__bullets__item
+    background-color: #99C0B7
+    border-color: #99C0B7
+    &--active
+      background-color: $color-acento-botones
+      border-color: $color-acento-botones
 .tabla-a.color-acento-contenido
   table
     thead
@@ -342,3 +362,12 @@ figcaption
     .crd_hover_txt--body
       p
         font-size: 0.85em
+
+.tag-shape 
+  clip-path: polygon(0 0, 94% 0, 100% 50%, 94% 100%, 0% 100%, 5% 50%)
+  &_1-1
+    background: #99C0B7
+  &_1-2
+    background: #E5EFEC  
+  &_1-3
+    background: #99C0B7
