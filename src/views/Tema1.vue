@@ -145,7 +145,7 @@
 
 
     Separador
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2  Producción limpia y reconversión productiva 
 
     p Estas surgen como respuesta a los impactos ambientales, sociales y económicos generados por los modelos agropecuarios convencionales, teniendo en cuenta que, estos enfoques promueven la adopción de prácticas que permitan producir alimentos de manera eficiente, reduciendo el uso de insumos contaminantes, optimizando los recursos naturales y garantizando la sostenibilidad de los sistemas productivos rurales. 
