@@ -82,7 +82,7 @@
       .row.justify-content-center(titulo="Sistemas naturales")
         .col-11
           p Los sistemas naturales son aquellos que existen sin intervención humana directa, se desarrollan de manera espontánea como resultado de procesos biológicos, físicos y químicos propios de la naturaleza. 
-          pUn ejemplo es un bosque natural, donde interactúan árboles, arbustos, animales, microorganismos, suelo, agua y clima en equilibrio dinámico. Estos sistemas han evolucionado durante largos períodos y suelen presentar alta biodiversidad y capacidad de autorregulación. 
+          p Un ejemplo es un bosque natural, donde interactúan árboles, arbustos, animales, microorganismos, suelo, agua y clima en equilibrio dinámico. Estos sistemas han evolucionado durante largos períodos y suelen presentar alta biodiversidad y capacidad de autorregulación. 
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-7
               p Sus principales características son: 
@@ -189,7 +189,7 @@
         p En el enfoque sistémico, ningún componente funciona de manera aislada; todos mantienen relaciones de interdependencia. A continuación, se amplían los principales componentes de un sistema aplicado al contexto agropecuario. 
 
     TabsB.color-acento-botones.mb-5(data-aos="fade-down")
-      .py-4.py-md-5(titulo="Entradas (inputs)" :icono="require('@/assets/curso/temas/t3/tabs1-ico1.svg')")
+      .py-4.py-md-5(titulo="Entradas (<em>inputs</em>)" :icono="require('@/assets/curso/temas/t3/tabs1-ico1.svg')")
         .row.justify-content-center
           .col-8.col-md-5.col-lg-3.mb-3.mb-lg-0
             img(src='@/assets/curso/temas/t3/tabs1-1.png', alt='')
@@ -254,7 +254,7 @@
                     i.fas.fa-check
                     span.mb-0 Transformación de materias primas (por ejemplo, procesamiento de leche o granos). 
             p Los procesos pueden ser naturales (como el ciclo del nitrógeno) o inducidos por la acción humana (labranza, fertilización, riego). La eficiencia de estos procesos determina en gran medida la productividad y sostenibilidad del sistema. Un manejo adecuado favorece procesos biológicos equilibrados, mientras que un manejo inadecuado puede generar desequilibrios ecológicos. 
-      .py-4.py-md-5(titulo="Salidas (outputs)" :icono="require('@/assets/curso/temas/t3/tabs1-ico3.svg')")
+      .py-4.py-md-5(titulo="Salidas (<em>outputs</em>)" :icono="require('@/assets/curso/temas/t3/tabs1-ico3.svg')")
         .row.justify-content-center
           .col-8.col-md-5.col-lg-3.mb-3.mb-lg-0
             img(src='@/assets/curso/temas/t3/tabs1-3.png', alt='')

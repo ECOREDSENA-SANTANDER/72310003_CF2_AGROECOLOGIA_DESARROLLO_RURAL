@@ -17,7 +17,7 @@
             img(src='@/assets/curso/temas/t4/2.svg', alt='')
           .col-lg-7.ps-lg-0
             .bg4.p-4
-              p.mb-0 Cosmovisión indígena y territorio: hace referencia a la forma integral en que los pueblos indígenas comprenden, interpretan y se relacionan con el mundo, donde el territorio no es solo un espacio físico o productivo, sino un ser vivo que integra dimensiones espirituales, culturales, sociales y ambientales. Desde esta perspectiva, la tierra no es un recurso explotable, sino un sujeto de respeto y cuidado, base de la identidad colectiva y de la continuidad cultural. 
+              p.mb-0 #[b Cosmovisión indígena y territorio]: hace referencia a la forma integral en que los pueblos indígenas comprenden, interpretan y se relacionan con el mundo, donde el territorio no es solo un espacio físico o productivo, sino un ser vivo que integra dimensiones espirituales, culturales, sociales y ambientales. Desde esta perspectiva, la tierra no es un recurso explotable, sino un sujeto de respeto y cuidado, base de la identidad colectiva y de la continuidad cultural. 
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
@@ -69,7 +69,7 @@
                   .row.justify-content-center.align-items-center(titulo="Milpas mesoamericanas")
                     .col-lg-5.col-11
                       p Las milpas mesoamericanas son sistemas agrícolas tradicionales de origen indígena practicados desde tiempos prehispánicos en regiones de Mesoamérica, especialmente en países como México y Guatemala.
-                      p La palabra #[em milpa] proviene del #[em náhuatl milli] (parcela sembrada) y pan (sobre), y hace referencia a un sistema de policultivo, no a un solo cultivo.                        
+                      p La palabra milpa proviene del náhuatl #[em milli] (parcela sembrada) y #[em pan] (sobre), y hace referencia a un sistema de policultivo, no a un solo cultivo.                        
                     .col-lg-6.col-11
                       img(src='@/assets/curso/temas/t4/pasos1-2.png', alt='')
                   .row.justify-content-center.align-items-center(titulo="Terrazas andinas")
@@ -91,7 +91,7 @@
       .col-lg-11.col-md-10.col-9
         p.mb-0 Las comunidades indígenas preservan semillas criollas adaptadas a las condiciones climáticas y edáficas locales, lo que contribuye a mantener la diversidad genética, fortalecer la resiliencia de los cultivos y garantizar la soberanía alimentaria de los territorios. 
     
-    p.mb-4 Manejo ancestral del agua y del suelo: corresponde al conjunto de conocimientos y prácticas tradicionales desarrolladas por comunidades indígenas y campesinas para conservar, proteger y utilizar de manera sostenible los recursos hídricos y el suelo, asegurando la producción de alimentos sin generar degradación ambiental. 
+    p.mb-4 #[b Manejo ancestral del agua y del suelo:] corresponde al conjunto de conocimientos y prácticas tradicionales desarrolladas por comunidades indígenas y campesinas para conservar, proteger y utilizar de manera sostenible los recursos hídricos y el suelo, asegurando la producción de alimentos sin generar degradación ambiental. 
 
     .row.justify-content-center.mb-5
       .col-lg-4.pe-lg-0.mb-3.mb-lg-0(data-aos="fade-right")

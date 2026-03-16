@@ -145,7 +145,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'Ambiental, social y económica.',
+              texto: 'Ambiental, social, económica y cultural. ',
               esCorrecta: true,
             },
             {

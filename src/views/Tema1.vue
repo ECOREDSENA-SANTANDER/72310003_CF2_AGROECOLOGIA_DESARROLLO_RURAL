@@ -199,7 +199,7 @@
     .subt-cuad.mb-4
       h4.mb-0.p-3.ps-5 Uso eficiente de los recursos naturales 
 
-    .row.bgc-3.align-items-center.p-2.p-md-4.pb-lg-0.mb-4(data-aos="fade-down")
+    .row.bgc-3.align-items-center.p-2.p-md-4.pb-xl-0.mb-4(data-aos="fade-down")
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
@@ -208,75 +208,75 @@
               img(src='@/assets/curso/temas/t1/7.png', alt='')
             .col-lg-8
               p Este principio busca maximizar la productividad utilizando menos recursos, garantizando su disponibilidad para futuras generaciones y para ello es posible lo siguiente: 
-              SlyderF(columnas="col-lg-4 col-md-6" data-aos="fade")
+              SlyderF(columnas="col-xl-4 col-md-6" data-aos="fade")
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-1.svg' alt='')
                   p.text-center.mb-5 Uso eficiente del suelo.
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-2.svg' alt='')
                   p.text-center.mb-5 Rotación y diversificación de cultivos.
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-3.svg' alt='')
                   p.text-center.mb-5 Conservación de cobertura vegetal. 
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-4.svg' alt='')
                   p.text-center.mb-5 Agricultura de conservación y labranza mínima.   
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-5.svg' alt='')
                   p.text-center.mb-5 Control de erosión mediante barreras vivas y terrazas.
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-6.svg' alt='')
                   p.text-center.mb-5 Uso eficiente del agua.  
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-7.svg' alt='')
                   p.text-center.mb-5 Sistemas de riego tecnificado (goteo, microaspersión).
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-8.svg' alt='')
                   p.text-center.mb-5 Captación y almacenamiento de aguas lluvias.  
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-9.svg' alt='')
                   p.text-center.mb-5 Protección de nacimientos y rondas hídricas.  
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-10.svg' alt='')
                   p.text-center.mb-5 Monitoreo del consumo hídrico en explotaciones pecuarias.  
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-11.svg' alt='')
                   p.text-center.mb-5 Uso eficiente de la energía.   
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-12.svg' alt='')
                   p.text-center.mb-5 Incorporación de energías renovables (solar, biodigestores). 
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-13.svg' alt='')
                   p.text-center.mb-5 Mecanización eficiente.   
                 .tarjeta.bgi-1.p-4
                   .row.justify-content-center.mb-4
-                    .col-5.col-md-6.col-lg-7
+                    .col-5.col-md-6.col-xl-7
                       img(src='@/assets/curso/temas/t1/tarj2-14.svg' alt='')
                   p.text-center.mb-5 Reducción del uso innecesario de combustibles fósiles.   
 
