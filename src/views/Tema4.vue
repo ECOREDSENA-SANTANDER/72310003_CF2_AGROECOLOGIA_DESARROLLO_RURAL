@@ -40,7 +40,7 @@
         .bg-white.tarjeta.p-4
           TarjetaAudio.color-acento-botones(
             texto="Aportes de las comunidades indígenas de Colombia en la conservación y manejo sostenible de la biodiversidad."
-            :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+            :audio="require('@/assets/componentes/audios/Podcast_CF2_72310003.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
             .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
