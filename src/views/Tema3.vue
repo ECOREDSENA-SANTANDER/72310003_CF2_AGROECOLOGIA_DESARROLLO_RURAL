@@ -34,8 +34,8 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg2" data-aos="fade")
       .row.justify-content-center(titulo="Sistemas abiertos")
         .col-11
-          p Los sistemas abiertos son aquellos que intercambian materia, energía e información con el entorno que los rodea, por tanto, permite que el sistema se mantenga activo, evolucione y se adapte a las condiciones externas. 
-          p Un ejemplo claro es el agroecosistema, en cual, el cultivo aprovecha la energía del sol, el agua (de la lluvia o del riego) y los nutrientes del suelo para crecer y producir alimentos. Durante su desarrollo, también genera oxígeno, vapor de agua y materia orgánica que regresan al ambiente y contribuyen a los ciclos naturales. 
+          p Los sistemas abiertos son aquellos que intercambian materia, energía e información con el entorno que los rodea, por tanto, permiten que el sistema se mantenga activo, evolucione y se adapte a las condiciones externas. 
+          p Un ejemplo claro es el agroecosistema, en el cual, el cultivo aprovecha la energía del sol, el agua (de la lluvia o del riego) y los nutrientes del suelo para crecer y producir alimentos. Durante su desarrollo, también genera oxígeno, vapor de agua y materia orgánica que regresan al ambiente y contribuyen a los ciclos naturales. 
           p Además, el cultivo no funciona de manera aislada, sino que interactúa permanentemente con insectos, microorganismos, aves y las personas que lo manejan; estas relaciones forman un sistema interconectado, donde cada elemento influye en el equilibrio y la productividad del conjunto. 
           .row.justify-content-center.align-items-center.mb-4
             .col-lg-7

@@ -238,14 +238,10 @@ export default {
     {
       referencia:
         'Cabrera, E. (2024, 15 de octubre). Conozca la milenaria técnica de cultivo de maíz. Blog Cambiagro.',
-      /*link:
-        'https://blog.cambiagro.com/actualidad/milenaria-tecnica-de-cultivo-de-maiz/',*/
     },
     {
       referencia:
         'Conciencia.eco. (s. f.). La importancia de la responsabilidad social en la ecología.',
-      /*link:
-        'https://conciencia.eco/la-importancia-de-la-responsabilidad-social-en-la-ecologia/',*/
     },
     {
       referencia:
@@ -254,26 +250,18 @@ export default {
     {
       referencia:
         'Demanet Filippi, R. (2021). La producción agropecuaria y su impacto en el medio ambiente [PDF]. Praderas y Pasturas.',
-      /*link:
-        'https://praderasypasturas.com/documentos/103.-Catedras_Post_Grado/03.-Magister_en_Innovacion_y_Gestion_Agroalimentaria/2021/01.-Impacto_en_el_medio_ambiente_de_la_produccion_agropecuaria.pdf',*/
     },
     {
       referencia:
         'Desarrollo Sustentable. (s. f.). Diferencias entre sostenibilidad y desarrollo sostenible.',
-      /*link:
-        'https://desarrollo-sustentable.org/diferencias-entre-sostenibilidad-y-desarrollo-sostenible/',*/
     },
     {
       referencia:
         'Eurofins Environment Testing Spain. (2023, 17 de septiembre). ¿Qué es la sostenibilidad y el desarrollo sostenible?',
-      /*link:
-        'https://www.eurofins-environment.es/es/sostenibilidad-desarrollo-sostenible/',*/
     },
     {
       referencia:
         'Pacheco Saldarriaga J. A, & Castellar Fuentes L. C. (2019). Estrategias de producción más limpia y criterios ambientales en la planta de beneficio de ganado de COOLESAR en el municipio de Valledupar- Cesar. Universidad Popular Del Cesar.',
-      /*link:
-        'http://repositorio.unicesar.edu.co/server/api/core/bitstreams/f4d006f8-7b4f-4acf-9688-8653b6c40b67/content',*/
     },
   ],
   creditos: [
@@ -282,7 +270,8 @@ export default {
       autores: [
         {
           nombre: 'Claudia Johanna Gómez Pérez',
-          cargo: 'Responsable del ecosistema',
+          cargo:
+            'Profesional G06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
